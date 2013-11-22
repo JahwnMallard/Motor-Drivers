@@ -40,25 +40,4 @@ Hardware diagram below:
 	
 -void `turnRobotRight(char dutyCycle)`
 	-Moves left motor forward (TA0CCR1 set to duty cycle) and stops the right motor (TA1CCR1 set to 0)
-	
-##Example Code
 
-- This code will move the robot forward, backward, then do a short turn left, a short turn right, a large turn left, and a large turn right
- 
--	`{	initRobot();	
-	      moveRobotForward(100);
-	        __delay_cycles(700000);
-	        moveRobotBackward(100);
-	        __delay_cycles(700000);
-	        turnRobotLeft(100);
-	        __delay_cycles(700000);
-	        turnRobotRight(100);
-	        __delay_cycles(700000);
-	        turnRobotLeft(100);
-	        __delay_cycles(1500000);
-	        turnRobotRight(100);
-	        __delay_cycles(1500000);
-}
-	  `
-
-	
