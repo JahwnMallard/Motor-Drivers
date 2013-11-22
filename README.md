@@ -44,8 +44,8 @@ Hardware diagram below:
 ##Example Code
 
 - This code will move the robot forward, backward, then do a short turn left, a short turn right, a large turn left, and a large turn right
-`  
--	{	initRobot();	
+ 
+-	`{	initRobot();	
 	      moveRobotForward(100);
 	        __delay_cycles(700000);
 	        moveRobotBackward(100);
